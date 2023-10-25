@@ -1,0 +1,7 @@
+const button = document.getElementById('demoButton');
+const output = document.getElementById('output');
+
+button.addEventListener('click', () => {
+    output.textContent = 'Button Clicked!';
+    output.style.color = 'blue';
+});
